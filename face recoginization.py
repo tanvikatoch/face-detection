@@ -15,7 +15,10 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 counter = 0
 face_match = False
 
-reference_img = cv2.imread("C:\\Users\\Tanvi\\photos\\1714112927647.jpg")
+reference_img = {
+    "image1":cv2.imread("referencee image path"),
+    "image2":cv2.inread("reference image path"),
+}    
 
 def check_face(frame):
     global face_match
